@@ -1,3 +1,7 @@
-s = list(input())
-del s[0::3]
-print(*s, sep='')
+numbers = [2, 4, 6, 8, 10]
+languages = ['Python', 'C#', 'C++', 'Java']
+
+print(len(numbers))
+print(len(languages))
+
+print(len(['apple', 'banana', 'cherry']))
