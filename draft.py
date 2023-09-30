@@ -1,9 +1,6 @@
 # Черновик
 
-numbers = [2, 4, 6, 8, 10]
-languages = ['Python', 'C#', 'C++', 'Java']
+numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-print(len(numbers))
-print(len(languages))
-
-print(len(['apple', 'banana', 'cherry']))
+for num in numbers:
+    print(num)
